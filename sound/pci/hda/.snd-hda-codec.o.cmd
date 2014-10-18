@@ -1,0 +1,1 @@
+cmd_sound/pci/hda/snd-hda-codec.o := ld -m elf_x86_64   -r -o sound/pci/hda/snd-hda-codec.o sound/pci/hda/hda_codec.o sound/pci/hda/hda_generic.o sound/pci/hda/hda_proc.o sound/pci/hda/hda_eld.o sound/pci/hda/hda_hwdep.o 

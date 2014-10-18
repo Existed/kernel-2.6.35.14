@@ -1,0 +1,1 @@
+cmd_arch/x86/kernel/test_nx.ko := ld -r -m elf_x86_64 -T /home/exist/tmp/linux-2.6.35.14/linux-2.6.35/scripts/module-common.lds --build-id -o arch/x86/kernel/test_nx.ko arch/x86/kernel/test_nx.o arch/x86/kernel/test_nx.mod.o
